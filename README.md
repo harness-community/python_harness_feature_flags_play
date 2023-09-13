@@ -1,6 +1,6 @@
 # Harness Feature Flags with Python
 
-This project demonstrates the use of Harness Feature Flags in a Python application. It fetches client data based on source IP and interacts with the Harness Feature Flags API to retrieve specific feature flag variations.
+This project demonstrates the use of Harness Feature Flags in a Python application. It fetches client data based on source IP and interacts with the Harness Feature Flags API to play with feature flags and variations.
 
 ## Table of Contents
 
