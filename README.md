@@ -24,7 +24,7 @@ This project demonstrates the use of Harness Feature Flags in a Python applicati
 
 ```bash
 git clone https://github.com/gacerioni/python_harness_feature_flags_play.git
-cd your-repo-name
+cd python_harness_feature_flags_play
 ```
 
 2. (Optional) Create a virtual environment:
