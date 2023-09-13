@@ -61,7 +61,7 @@ docker build -t harness-feature-flags-python:v0.0.1 .
 2. Run the Docker container:
 
 ```bash
-docker run -e FF_API_KEY=your_api_key -e FF_BASE_URL=your_base_url -e FF_EVENTS_URL=your_events_url -e FF_IP_INFO_URL=your_ip_info_url -e FF_CLIENT_ID=your_client_id -e FF_CLIENT_NAME=your_client_name harness-feature-flags-python:v0.0.1
+docker run -it -e FF_API_KEY=your_api_key -e FF_BASE_URL=your_base_url -e FF_EVENTS_URL=your_events_url -e FF_IP_INFO_URL=your_ip_info_url -e FF_CLIENT_ID=your_client_id -e FF_CLIENT_NAME=your_client_name harness-feature-flags-python:v0.0.1
 ```
 
 Replace the placeholders (`your_api_key`, `your_base_url`, etc.) with your actual values. If you do not provide them, it will use default values configured in the code (since this is meant to be a Demo).
